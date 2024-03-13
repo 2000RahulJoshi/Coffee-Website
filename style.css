@@ -7,7 +7,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Montserrat;
-    /* border: 1px solid white; */
     color: white;
 }
 
@@ -352,7 +351,7 @@ a:hover{
     align-items: center;
 }
 
-.voucher h1{
+.voucher h1,.customerReview h1{
     font-family: "Grand Hotel", cursive;
     font-weight: 100;
     font-size: 120px;
@@ -373,6 +372,54 @@ a:hover{
     border: none;
     border-radius: 12px;
 }
+
+.customerReview{
+    padding-top: 3%;
+    position: relative;
+}
+
+.customerReview h1{
+    font-size: 90px;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.customerReviewContent{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 3% 9% 16% 9%;
+}
+
+.customerOne,.customerTwo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vh;
+}
+
+.customerOne h2,.customerTwo h2{
+    color: white;
+    font-family: "Grand Hotel", cursive;
+    font-size: 40px;
+    font-weight: 100;
+    display: flex;
+}
+
+.customerOne p,.customerTwo p{
+    width: 80%;
+    text-align: center;
+    line-height: 1.1;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.customerCurveBottom{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
 
 
 
