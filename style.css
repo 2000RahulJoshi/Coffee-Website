@@ -7,7 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Montserrat;
-    /* border: 1px solid white; */
+    border: 1px solid white;
     color: white;
 }
 
@@ -93,7 +93,7 @@ a:hover{
     position: relative;
     background-image: url(./images/imageOne.png), url(./images/pageOneCoffee.png), url(./images/pageOneBurger.png), url(./images/pageOneMug.png);
     background-repeat: no-repeat;
-    background-position: right 0rem top 2.5rem, left 44rem top 4rem, left 33rem top 15rem, left 24rem top 24rem;
+    background-position: right 0rem top 2.1rem, left 44rem top 4rem, left 33rem top 15rem, left 24rem top 24rem;
     background-size: 46rem 38.6rem, 3rem 4rem, 3rem 3rem, 4.5rem 4.5rem;
 }
 
@@ -151,55 +151,50 @@ a:hover{
 
 .pageTwo{
     background-color: #29a19c;
-    padding: 0 11% 1% 11%;
+    padding: 0 9% 1% 9%;
     display: flex;
     justify-content: space-between;
+    background-image: url(./images/pageOneBurger.png), url(./images/pageOneCoffee.png), url(./images/pageOneMug.png), url(./images/pageOneWaveBurger.png);
+    background-repeat: no-repeat;
+    background-position: top 2rem left 38rem, top -1rem right 6rem, left 34rem bottom 12rem, left 13rem bottom 3rem;
+    background-size: 3rem 3rem, 4rem 5rem, 7rem 7rem;
 }
 
 
 .pageTwoLeft h1{
     font-family: "Grand Hotel", cursive;
-    font-size: 110px;
+    font-size: 118px;
     font-weight: 100;
     line-height: 0.9;
 }
 
 .pageTwoHeading{
-    padding-top: 22%;
+    padding-top: 25%;
 }
 
 
 .pageTwoRight{
-    width: 50%;
+    width: 53%;
 }
 
 .pageTwoButton{
-    padding: 11vh 0 0 0;
+    padding: 14vh 0 0 0;
 }
 
 .pageTwoButton button{
-    /* background-color: #222831;
-    color: white;
-    border: none;
-    font-size: 20px;
-    font-weight: 600;
-    padding: 2% 7%;
-    border-radius: 10px;
-    cursor: pointer; */
-
     background-color: #222831;
     color: white;
     border: none;
-    font-size: 23px;
+    font-size: 30px;
     font-weight: 600;
-    padding: 4% 10%;
+    padding: 4% 11%;
     border-radius: 10px;
     cursor: pointer;
 }
 
 
 .pageTwoImg{
-    width: 73%;
+    width: 83%;
     margin-left: auto;
 }
 
@@ -210,14 +205,147 @@ a:hover{
     text-align: right;
     padding-top: 6%;
     word-break: break-all;
-    font-size: 17px;
+    font-size: 19px;
 }
 
 .pageTwoImgContent p{
     line-height: 1.4;
     word-spacing: 7px;
-    letter-spacing: 1px;
+    font-weight: 400;
 }
+
+
+.pageThree{
+    width: 100%;
+    position: relative;
+    padding: 6% 9% 1% 9%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    background-image: url(./images/imageFour.png);
+    background-repeat: no-repeat;
+    background-position: top -8.8rem left 0;
+}
+
+
+.pageThreeLeft h1{
+    font-family: "Grand Hotel", cursive;
+    font-size: 118px;
+    font-weight: 100;
+    line-height: 0.9;
+    text-align: right;
+}
+
+.pageThreeHeading{
+    padding-top: 52%;
+}
+
+
+.pageThreeRight{
+    width: 53%;
+}
+
+.pageThreeButton{
+    padding: 14vh 0 0 0;
+    display: flex;
+    justify-content: end;
+}
+
+.pageThreeButton button{
+    background-color: #29a19c;
+    color: white;
+    border: none;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 4% 11%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.pageThreeImg{
+    width: 83%;
+}
+
+.pageThreeImgContent{
+    width: 93%;
+    padding-top: 6%;
+    word-break: break-all;
+    font-size: 19px;
+}
+
+.pageThreeImgContent p{
+    line-height: 1.4;
+    word-spacing: 7px;
+    font-weight: 400;
+}
+
+
+.pageFour{
+    padding: 4% 9% 1% 9%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.pageFourLeft h1{
+    font-family: "Grand Hotel", cursive;
+    font-size: 118px;
+    font-weight: 100;
+    line-height: 0.9;
+}
+
+.pageFourHeading{
+    padding-top: 52%;
+}
+
+
+.pageFourRight{
+    width: 53%;
+}
+
+.pageFourButton{
+    padding: 14vh 0 0 0;
+}
+
+.pageFourButton button{
+    background-color: #29a19c;
+    color: white;
+    border: none;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 4% 11%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.pageFourImg{
+    width: 83%;
+    margin-left: auto;
+}
+
+.pageFourImgContent{
+    width: 93%;
+    margin-left: auto;
+    text-align: end;
+    text-align: right;
+    padding-top: 6%;
+    word-break: break-all;
+    font-size: 19px;
+}
+
+.pageFourImgContent p{
+    line-height: 1.4;
+    word-spacing: 7px;
+    font-weight: 400;
+}
+
+
+
+
+
+
 
 
 
