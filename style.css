@@ -11,6 +11,10 @@
     /* border: 1px solid white; */
 }
 
+.topContainerImg,.pageTwoHiddenImg,.pageTwoImgHiddenContent,.pageThreeHiddenImg,.pageThreeHiddenContent,.pageThreeWave,.pageFourHiddenImg,.pageFourHiddenContent{
+    display: none;
+}
+
 button{
     cursor: pointer;
 }
@@ -98,7 +102,7 @@ a:hover{
     background-image: url(./images/imageOne.png), url(./images/pageOneCoffee.png), url(./images/pageOneBurger.png), url(./images/pageOneMug.png);
     background-repeat: no-repeat;
     background-position: right 0rem top 2.1rem, left 44rem top 4rem, left 33rem top 15rem, left 24rem top 24rem;
-    background-size: 46rem 38.6rem, 3rem 4rem, 3rem 3rem, 4.5rem 4.5rem;
+    background-size: 48rem 38.6rem, 3rem 4rem, 3rem 3rem, 4.5rem 4.5rem;
 }
 
 .pageOneLeft{
@@ -234,6 +238,8 @@ a:hover{
     background-repeat: no-repeat;
     background-position: top -8.8rem left 0, top 10rem left 2rem, top 9rem left 48rem, top 26rem left 80rem, top 35rem left 52rem
 }
+
+
 
 
 .pageThreeLeft h1{
@@ -548,8 +554,6 @@ a:hover{
 
 .footer{
     padding: 1% 5% 3% 5%;
-    /* display: flex;
-    justify-content: space-between; */
     background-color: #29a19c;
 }
 
@@ -640,6 +644,51 @@ a:hover{
 
 
 @media (max-width:600px) {
+
+    .pageOneBurger,.pageTwoRight,.pageThreeRight,.pageFourRight{
+        display: none;
+    }
+
+    .hamLine,.hamBurger,.pageTwoHiddenImg,.pageTwoImgHiddenContent,.pageThreeHiddenImg,.pageThreeHiddenContent,.pageThreeWave,.pageFourHiddenImg,.pageFourHiddenContent{
+        display: block;
+        word-break: break-all;
+    }
+
+    .topContainerImg,.pageTwoHiddenImg,.pageFourHiddenImg{
+        display: block;
+        width: 60%;
+        padding-bottom: 3%;
+    }
+
+    .orderNowButton,.pageTwoButton,.pageThreeButton,.pageFourButton{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .orderNowButton button,.pageTwoButton button,.pageThreeButton button,.pageFourButton button{
+        font-size: 1em;
+        padding: 2% 7%;
+    }
+
+    .pageOne,.pageTwo,.pageThree,.pageFour{
+        width: 100%;
+        background-image: none;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .pageTwoButton,.pageThreeButton,.pageFourButton{
+        padding-top: 2%;
+    }
+   
+
+
+
+
+
+
+
     .navBar{
         padding-top: 4%;
     }
@@ -648,9 +697,7 @@ a:hover{
         display: none;
     }
 
-    .hamLine,.hamBurger{
-        display: block;
-    }
+
 
     .navLogoDescription h2{
         font-size: 1em;
@@ -658,6 +705,108 @@ a:hover{
 
     .navLogo img{
         width: 25px;
+    }
+
+
+    .pageOneLeft{
+        width: 100%;
+        gap: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pageOnePara{
+        text-align: justify;
+        word-break: break-all;
+        width: 100%;
+        font-size: 1em;
+        padding-bottom: 6%;
+        padding-top: 4%;
+    }
+
+    .pageOneLeft h1{
+        font-size: 5em;
+        padding-bottom: 6%;
+    }
+
+    .pageOneLeft h2{
+        padding-bottom: 7%;
+        font-size: 1.4em;
+    }
+
+
+
+
+
+    .pageTwo{
+        flex-direction: column;
+        background-image: none;
+        padding-bottom: 5%;
+    }
+
+    .pageTwoHeading{
+        padding-top: 4%;
+        padding-bottom: 7%;
+    }
+
+    .pageTwoHeading h1,.pageThreeHeading h1,.pageFourHeading h1{
+        display: inline;
+        font-size: 4.5em;
+    }
+
+    .pageTwoLeft,.pageThreeLeft,.pageFourLeft{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .pageTwoImgHiddenContent{
+        padding-bottom: 4%;
+        padding-top: 4%;
+    }
+
+    .pageThree{
+        background-image: none;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pageThreeWave{
+        position: absolute;
+        top: -1rem;
+        width: 100%;
+        left: 0rem;
+    }
+
+    .pageThreeHiddenImg{
+        width: 60%;
+    }
+    
+    .pageThreeHeading{
+        padding-top: 18%;
+        padding-bottom: 10%;
+    }
+
+    .pageThreeHiddenContent{
+        padding-top: 7%;
+        padding-bottom: 4%;
+    }
+
+    .pageFour{
+        background-image: none;
+    }
+
+    .pageFourHeading{
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .pageFourHiddenContent{
+        padding-top: 6%;
+        padding-bottom: 4%;
     }
 
 }
