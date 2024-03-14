@@ -8,6 +8,7 @@
     box-sizing: border-box;
     font-family: Montserrat;
     color: white;
+    /* border: 1px solid white; */
 }
 
 button{
@@ -225,9 +226,13 @@ a:hover{
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
-    background-image: url(./images/imageFour.png);
+    background-image: url(./images/imageFour.png),
+    url(./images/pageThreeBgCup.png),
+    url(./images/pageThreeBgBurgerRight.png),
+    url(./images/pageThreeBgBurgerRight.png),
+    url(./images/pageThreeBgMug.png);
     background-repeat: no-repeat;
-    background-position: top -8.8rem left 0;
+    background-position: top -8.8rem left 0, top 10rem left 2rem, top 9rem left 48rem, top 26rem left 80rem, top 35rem left 52rem
 }
 
 
@@ -285,9 +290,12 @@ a:hover{
 
 
 .pageFour{
-    padding: 4% 9% 1% 9%;
+    padding: 4% 9% 5% 9%;
     display: flex;
     justify-content: space-between;
+    background-image: url(./images/pageFourMug.png), url(./images/pageOneWaveBurger.png), url(./images/pageOneWaveBurger.png), url(./images/voucherRIghtMug.png);
+    background-repeat: no-repeat;
+    background-position: right 2rem top 8rem, top 4rem left 18rem, top 19rem left 38rem, top 39rem left 15rem;
 }
 
 
@@ -349,6 +357,11 @@ a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url(./images/voucherBurger.png),
+    url(./images/pageThreeBgCup.png),
+    url(./images/pageThreeBgMug.png);
+    background-repeat: no-repeat;
+    background-position: top 10rem right 8rem, top 26rem left 7rem, top 35rem right 4rem;
 }
 
 .voucher h1,.customerReview h1{
@@ -376,6 +389,11 @@ a:hover{
 .customerReview{
     padding-top: 3%;
     position: relative;
+    background-image: url(./images/customerReviewBurger.png),
+    url(./images/pageFourMug.png),
+    url(./images/voucherRIghtMug.png);
+    background-repeat: no-repeat;
+    background-position: top 19rem left 41rem, top 34rem right 6rem, top 31rem left 3rem;
 }
 
 .customerReview h1{
@@ -419,6 +437,185 @@ a:hover{
     bottom: 0;
     width: 100%;
 }
+
+.restroTimingContainer{
+    background-color: #29a19c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10vh;
+    width: 100%;
+    padding-bottom: 3%;
+    background-image: url(./images/pageOneWaveBurger.png),
+    url(./images/pageOneMug.png),
+    url(./images/pageThreeBgCup.png),
+    url(./images/pageThreeBgBurgerRight.png);
+    background-repeat: no-repeat;
+    background-position: top 0rem left 7rem, top 4rem right 6rem, top 17rem left 16rem, top 20rem right 8rem;
+}
+
+.restroTimings{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+}
+
+.restroTimings p{
+    font-size: 32px;
+}
+
+.restroTimings h2{
+    font-size: 32px;
+}
+
+.restroTimingContainer h1{
+    font-family: "Grand Hotel", cursive;
+    font-size: 90px;
+    font-weight: 100;
+}
+
+.BranchContainer{
+    position: relative;
+    width: 100%;
+    padding: 11% 4% 18% 4%;
+    text-align: center;
+    background-image: url(./images/imageSIx.png),
+    url(./images/pageOneWaveBurger.png),
+    url(./images/pageThreeBgBurgerRight.png),
+    url(./images/pageThreeBgCup.png),
+    url(./images/pageThreeBgMug.png);
+    background-repeat: no-repeat;
+    /* background-position: left 0rem top -8rem,top 0rem left 0rem, top 3rem left 0rem ,top 7rem left 0rem,top 12rem left 0rem; */
+    background-position: left 0rem top -8rem,top 0rem left 0rem, top 10rem left 21rem ,bottom 9rem right 26rem,top 48rem left 26rem;
+}
+
+.BranchContainer h1{
+    font-family: "Grand Hotel", cursive;
+    font-size: 90px;
+    font-weight: 100;
+}
+
+.branchCards{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+.branchButton{
+    width: 100%;
+    padding-top: 6vh;
+}
+
+.branchButton button{
+    color: white;
+    background-color: #29a19c;
+    border: none;
+    padding: 2% 8%;
+    font-size: 35px;
+    font-weight: bold;
+    border-radius: 11px;
+    width: 67%;
+}
+
+.branchDesc{
+    padding-top: 6vh;
+    width: 93%;
+    align-self: flex-start;
+}
+
+.branchDesc p{
+    font-size: 15px;
+    word-break: break-all;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.branchBottomWave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+.footer{
+    padding: 1% 5% 3% 5%;
+    /* display: flex;
+    justify-content: space-between; */
+    background-color: #29a19c;
+}
+
+.footerContent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerLeft{
+    display: flex;
+    gap: 0.5vw;
+    align-items: flex-start;
+}
+
+.footerRight{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerLogoDescription{
+    font-size: 20px;
+}
+
+.footerRightHeading{
+    font-size: 22px;
+}
+
+.footerLeftPositon{
+    display: flex;
+    align-items: center;
+}
+
+.footerRightOne,.footerRightTwo{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.footerRightAnchor p{
+    padding-top: 5%;
+}
+
+.footerRightAnchor p a{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.footerBottomIconsAndText{
+    padding-top: 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerBottomIconsLeft{
+    display: flex;
+    gap: 4.4vw;
+}
+
+.footerBottomIconsRight{
+    display: flex;
+    gap: 2.7vw;
+    align-items: center;
+}
+
 
 
 
