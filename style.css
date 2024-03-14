@@ -11,7 +11,7 @@
     /* border: 1px solid white; */
 }
 
-.topContainerImg,.pageTwoHiddenImg,.pageTwoImgHiddenContent,.pageThreeHiddenImg,.pageThreeHiddenContent,.pageThreeWave,.pageFourHiddenImg,.pageFourHiddenContent{
+.topContainerImg,.pageTwoHiddenImg,.pageTwoImgHiddenContent,.pageThreeHiddenImg,.pageThreeHiddenContent,.pageThreeWave,.pageFourHiddenImg,.pageFourHiddenContent,.branchContHiddenImg{
     display: none;
 }
 
@@ -41,6 +41,27 @@ body,html{
     justify-content: space-between;
     align-items: center;
 }
+
+
+.hamburgerMenu{
+    padding-top: 4%;
+    position: fixed;
+    left: -100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    opacity: 0.9;
+    z-index: 1000;
+}
+
+.navLeftAnchorHam{
+    padding: 3%;
+    color: white;
+    font-weight: bolder;
+}
+
 
 a{
     text-decoration: none;
@@ -649,7 +670,7 @@ a:hover{
         display: none;
     }
 
-    .hamLine,.hamBurger,.pageTwoHiddenImg,.pageTwoImgHiddenContent,.pageThreeHiddenImg,.pageThreeHiddenContent,.pageThreeWave,.pageFourHiddenImg,.pageFourHiddenContent{
+    .hamLine,.hamBurger,.pageTwoHiddenImg,.pageTwoImgHiddenContent,.pageThreeHiddenImg,.pageThreeHiddenContent,.pageThreeWave,.pageFourHiddenImg,.pageFourHiddenContent,.branchContHiddenImg{
         display: block;
         word-break: break-all;
     }
@@ -671,7 +692,7 @@ a:hover{
         padding: 2% 7%;
     }
 
-    .pageOne,.pageTwo,.pageThree,.pageFour{
+    .pageOne,.pageTwo,.pageThree,.pageFour,.voucher,.BranchContainer,.BranchContainer,.footer{
         width: 100%;
         background-image: none;
         padding-left: 6%;
@@ -808,5 +829,180 @@ a:hover{
         padding-top: 6%;
         padding-bottom: 4%;
     }
+
+    .voucher{
+        padding-top: 2%;
+        padding-left: 3%;
+    }
+
+    .voucher h1{
+        font-size: 5em;
+    }
+
+    /* .voucherImage{
+        padding-right: 2%;
+    } */
+
+
+    .getVoucherButton button{
+        font-size: 1em;
+    }
+
+    .customerReview{
+        background-image: none;
+        padding-top: 8%;
+        padding-bottom: 9%;
+    }
+
+    .customerReviewContent{
+        flex-direction: column;
+        gap: 8vh;
+        padding-top: 7%;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .customerReview h1{
+        font-size: 291%;
+    }
+
+    .customerOne,.customerTwo{
+        gap: 2vh;
+    }
+
+    .customerImgCont{
+        width: 70%;
+    }
+
+    .customerOne p,.customerTwo p{
+        width: 100%;
+        word-break: break-all;
+        text-align: justify;
+    }
+
+    .customerCurveBottom{
+        bottom: -0.9%;
+    }
+
+    .restroTimingContainer{
+        background-image: none;
+        gap: 8vh;
+        padding-top: 2%;
+        padding-bottom: 8%;
+    }
+
+    .restroTimingContainer h1{
+        font-size: 5em;
+    }
+
+    .restroTimings p,.restroTimings h2{
+        font-size: 28px;
+    }
+
+    .BranchContainer{
+        background-image: none;
+    }
+
+    .branchContHiddenImg{
+        display: block;
+        position: absolute;
+        top: -2rem;
+        left: 0;
+    }
+
+    .BranchContainer h1{
+        padding-top: 6%;
+        font-size: 50px;
+        padding-bottom: 5%;
+    }
+
+    .branchCards{
+        flex-direction: column;
+        gap: 4vh;
+    }
+
+    .cards{
+        width: 100%;
+    }
+
+    .branchButton{
+        padding-top: 8%;
+    }
+
+    .branchButton button{
+        width: 60%;
+        padding-left: 6%;
+        padding-right: 6%;
+        font-size: 22px;
+    }
+
+    .branchDesc{
+        padding-top: 6%;
+        word-break: break-all;
+    }
+
+    .branchBottomWave{
+        bottom: -1rem;
+    }
+
+    .footer{
+        padding-top: 10%;
+    }
+
+    .footerContent{
+        flex-direction: column;
+    }
+
+    .footerBottomIconsAndText{
+        width: 100%;
+        display: none;
+    }
+
+    .footerRight{
+        /* justify-content: space-between; */
+        /* flex-direction: column; */
+        width: 100%;
+        /* align-items: center; */
+        /* background-color: red; */
+        justify-content: space-between;
+    }
+
+    .footerLeftPositon{
+        align-self: center;
+    }
+
+    .footerLeft{
+        justify-content: center;
+    }
+
+
+    .footerLeftPositon{
+        padding-bottom: 7%;
+    }
+
+    .footerRightOne,.footerRightTwo{
+        gap: 1vh;
+    }
+
+    .footerRightHeading h2{
+        font-size: 22px;
+    }
+
+    .hamburgerMenu.active{
+        left: 0;
+        background-color: #222831;
+        width: 100%;
+        transition: 0.5s;
+        opacity: 1;
+    }
+
+    .hamburgerMenu{
+        background-color: #222831;
+        width: 100%;
+    }
+
+    /* .hamburgerMenu a{
+        color: black;
+    } */
 
 }
