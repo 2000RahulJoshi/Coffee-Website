@@ -9,6 +9,7 @@
     font-family: Montserrat;
     color: white;
     /* border: 1px solid white; */
+    scroll-behavior: smooth;
 }
 
 .topContainerImg,.pageTwoHiddenImg,.pageTwoImgHiddenContent,.pageThreeHiddenImg,.pageThreeHiddenContent,.pageThreeWave,.pageFourHiddenImg,.pageFourHiddenContent,.branchContHiddenImg{
@@ -574,7 +575,7 @@ a:hover{
 
 
 .footer{
-    padding: 1% 5% 3% 5%;
+    padding: 1% 5% 7% 5%;
     background-color: #29a19c;
 }
 
@@ -620,7 +621,7 @@ a:hover{
 
 .footerRightAnchor p a{
     font-weight: 400;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .footerBottomIconsAndText{
@@ -939,6 +940,7 @@ a:hover{
     .branchDesc{
         padding-top: 6%;
         word-break: break-all;
+        text-align: justify;
     }
 
     .branchBottomWave{
@@ -1000,9 +1002,4 @@ a:hover{
         background-color: #222831;
         width: 100%;
     }
-
-    /* .hamburgerMenu a{
-        color: black;
-    } */
-
 }
