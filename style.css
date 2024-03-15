@@ -12,6 +12,17 @@
     scroll-behavior: smooth;
 }
 
+.curve{
+    height: 39px;
+    width: 21px;
+    position: absolute;
+    background-color: #29a19c;
+    bottom: -21%;
+    left: 0px;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 25%;
+}
+
 .topContainerImg,.pageTwoHiddenImg,.pageTwoImgHiddenContent,.pageThreeHiddenImg,.pageThreeHiddenContent,.pageThreeWave,.pageFourHiddenImg,.pageFourHiddenContent,.branchContHiddenImg{
     display: none;
 }
@@ -550,6 +561,7 @@ a:hover{
 .branchButton{
     width: 100%;
     padding-top: 6vh;
+    position: relative;
 }
 
 .branchButton button{
@@ -561,6 +573,7 @@ a:hover{
     font-weight: bold;
     border-radius: 11px;
     width: 67%;
+    position: relative;
 }
 
 .branchDesc{
