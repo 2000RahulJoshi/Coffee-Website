@@ -18,7 +18,13 @@
 
 button{
     cursor: pointer;
+    transition: 0.5s;
 }
+
+button:hover{
+    scale: 1.1;
+}
+
 
 ::-webkit-scrollbar {
     display: none;
@@ -166,6 +172,8 @@ a:hover{
     cursor: pointer;
 }
 
+
+
 .pageOneWave{
     position: absolute;
     left: 0;
@@ -220,6 +228,7 @@ a:hover{
     padding: 4% 11%;
     border-radius: 10px;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 
@@ -923,6 +932,10 @@ a:hover{
     }
 
     .cards{
+        width: 100%;
+    }
+
+    .cards img{
         width: 100%;
     }
 
